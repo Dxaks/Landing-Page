@@ -13,10 +13,6 @@ body {
     padding-bottom: 50px;
 }
 
-header {
-    /* background-color: aqua; */
-}
-
 .navbar {
     width: 1100px;
     margin: auto;
@@ -24,7 +20,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: black; */
 }
 
 .logo {
@@ -145,3 +140,70 @@ main .right img {
     padding: 20px;
 }
 
+.testimonial-section {
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+.wrapper {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: auto;
+    gap: 10px;
+    padding: 40px;
+}
+
+.testimonial-section p {
+    font-size: 36px;
+    font-style: italic;
+    line-height: 38px;
+}
+
+.testimonial-section .right-margin {
+    margin-left: auto;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.cta-section {
+    background-color: #fff;
+    padding: 100px;
+
+}
+
+.cta-wrapper {
+    max-width: 700px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 60px;
+    gap: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.cta-wrapper button {
+    width: 100px;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f9faf8;
+    border: 1px solid #fff; 
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+footer h2 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+
+}
